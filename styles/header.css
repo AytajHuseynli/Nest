@@ -1,0 +1,212 @@
+.first-header {
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        li {
+            list-style: none;
+            margin: 0;
+
+            .tel {
+                color: blue;
+                font-size: 13px;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 13px;
+                color: #7E7E7E;
+
+            }
+        }
+    }
+}
+
+.secondry-header {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 28px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 180px;
+        height: 55px;
+    }
+
+    .search-box {
+        padding: 16px;
+        border: 1px solid #3BB77E;
+        gap: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .selection {
+            font-size: 14px;
+            font-weight: 600px;
+        }
+
+        input {
+            border: none;
+            padding-right: 360px;
+
+            ::placeholder {
+                font-size: 14px;
+                color: #dadada;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.navlist ul {
+    border-bottom: 1px solid #e9e9e9;
+    padding-left: 0;
+    padding: 16px;
+    list-style: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist ul .categories {
+    background-color: #3BB77E;
+    padding: 12px;
+    width: 240px;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.navlist .support {
+    color: #3BB77E;
+}
+
+.navlist .Home {
+    color: #3BB77E;
+}
+
+.hero {
+    padding: 100px 80px;
+    margin: 8px;
+    border-radius: 16px;
+    background-image: url(https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-2.png);
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #253D4E;
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 40px;
+    color: #7E7E7E;
+}
+
+.hero .subscribe {
+    background-color: white;
+    border-radius: 40px;
+    display: inline-block;
+    padding-left: 12px;
+
+}
+
+.subscribe button {
+    background-color: #3BB77E;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe input {
+    border: none;
+    border-radius: 40px;
+    padding: 12px;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.category-section ul {
+    padding-left: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    color: #253D4E;
+}
+
+.category-section .paragraphy {
+    font-weight: 700;
+    font-size: 28px;
+}
+.cards ul {
+    margin: 0;
+    padding-top: 32px;
+    display: flex;
+    gap: 8px;
+}
+.cards li {
+    background-image: url(https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-13.png);
+    background-color: #F2FCE4;
+    
+    flex: 1;
+    min-width: max-content;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 12px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100px;
+    padding-top: 120px;
+}
+
+.cards li h4 {
+    font-size: 14px;
+    padding: 0;
+    padding-bottom: 4px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.cards .cake {
+    background-image: url(https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/cat-13.png);
+    background-color: #F2FCE4;
+    
+}
+
+.cards p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #494949;
+}
